@@ -1,6 +1,6 @@
 #define GFXTABLET_PORT 40118
 
-#define PROTOCOL_VERSION 2
+#define PROTOCOL_VERSION 1
 
 
 #pragma pack(push)

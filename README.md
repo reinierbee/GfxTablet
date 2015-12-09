@@ -68,6 +68,19 @@ Installation
 Github repository: https://github.com/rfc2822/GfxTablet
 
 
+Part What ever: server side optimizations
+---------------------
+
+Some changes i made to make it more comfotable for me to work with a cheap stylus pen
+
+Added options to protocol.h very hacky, but it works.
+
+* GFXTABLET_SCALE_X GFXTABLET_SCALE_Y Scale of the tablet to screen ratio of your laptop increase to make the surface use a large portion of the screen.
+* GFXTABLET_HOVERMODE 1/0 0 = normal mode 1 = Hoovermode only, does not simulate click command... usefull for cheap stylus pen
+
+
+
+
 Part 1: uinput driver
 ---------------------
 

@@ -153,8 +153,11 @@ int main(void)
 				// stylus hovering
 				if (ev_pkt.button == -1)
 					send_event(device, EV_KEY, BTN_TOOL_PEN, ev_pkt.down);
+				// Hoover mode only
+				if (ev_pkt.button == 0 && GFXTABLET_HOVERMODE == 1)
+					send_event(device, EV_KEY, BTN_TOOL_PEN, ev_pkt.down);
 				// stylus touching
-				if (ev_pkt.button == 0)
+				if (ev_pkt.button == 0 && GFXTABLET_HOVERMODE == 0)
 					send_event(device, EV_KEY, BTN_TOUCH, ev_pkt.down);
 				// button 1
 				if (ev_pkt.button == 1)

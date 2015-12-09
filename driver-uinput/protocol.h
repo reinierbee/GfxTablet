@@ -3,6 +3,8 @@
 #define GFXTABLET_SCALE_X 2 // Scale of the tablet to screen ratio of your laptop increase to make the surface use a large portion of the screen
 #define GFXTABLET_SCALE_Y 2
 
+#define GFXTABLET_HOVERMODE 1 // Hovermode only, also when pressed command is send 0 is off 1 is on
+
 #define PROTOCOL_VERSION 1
 
 

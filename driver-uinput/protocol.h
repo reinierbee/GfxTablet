@@ -1,5 +1,8 @@
 #define GFXTABLET_PORT 40118
 
+#define GFXTABLET_SCALE_X 2 // Scale of the tablet to screen ratio of your laptop increase to make the surface use a large portion of the screen
+#define GFXTABLET_SCALE_y 2
+
 #define PROTOCOL_VERSION 1
 
 

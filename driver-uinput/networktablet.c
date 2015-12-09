@@ -136,8 +136,8 @@ int main(void)
 			break;
 		}
 
-		ev_pkt.x = ntohs(ev_pkt.x * GFXTABLET_SCALE_X);
-		ev_pkt.y = ntohs(ev_pkt.y * GFXTABLET_SCALE_Ygit );
+		ev_pkt.x = ntohs(ev_pkt.x) * GFXTABLET_SCALE_X;
+		ev_pkt.y = ntohs(ev_pkt.y) * GFXTABLET_SCALE_Y;
 		ev_pkt.pressure = ntohs(ev_pkt.pressure);
 		printf("x: %hu, y: %hu, pressure: %hu\n", ev_pkt.x, ev_pkt.y, ev_pkt.pressure);
 
